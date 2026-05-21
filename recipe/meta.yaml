@@ -2,7 +2,7 @@
 
 package:
   name: hwinfo
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/openSUSE/hwinfo/archive/{{ version }}.tar.gz
