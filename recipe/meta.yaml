@@ -1,4 +1,4 @@
-{% set version = "25.3" %}
+{% set version = "25.4" %}
 
 package:
   name: hwinfo
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/openSUSE/hwinfo/archive/{{ version }}.tar.gz
-  sha256: 78efc1a72c0b294a404a393adeb8f99abadda753d1fb0e18e2b41c2ad86b3549
+  sha256: 7209dc18874c206fa2de85fd2ea78ca328a2435258ec24dcb512578d36796188
   patches:
     - use_flex_instead_of_lex.patch
 
